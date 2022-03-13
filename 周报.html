@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>周报	&#128512;</title>
+		<style>
+			a {
+				color: black;
+				font-style: normal;
+				text-decoration: none;
+			}
+			.he{
+				text-decoration: line-through;
+				text-indent: 2em;
+				line-height: 26px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="chengguo">个人周报</h1>
+		<form>
+		<b class="he">	&nbsp;&nbsp;&nbsp;&nbsp;姓名：<input type="text" name="name" value="XXX" maxlength="10"></b>
+		<b class="he">学号：<input type="text" name="id" value="XXX" maxlength="10"></b>
+		</form>
+		<div>
+		<p>
+			<strong>本周工作：</strong><br />
+			<ol>
+				<li>学习html的基本语法，并制作网页</li>
+				<li>继续学习MYSQL</li>
+				<li>学习java基本语法</li>
+			</ol>
+		</p>
+		</div>
+		<div>
+		<span style='font-size:20px;'><strong>本周遇到的技术困难及解决方案:</strong></span>
+		<p style="text-indent:2em"> <strong>mysql创建存储出错：</strong><br />
+			ERROR 1418 (HY000): This function has none of DETERMINISTIC, NO SQL, or READS SQL DATA in its declaration and binary logging is enabled <br />
+			(you *might* want to use the less safe log_bin_trust_function_creators variable)。<br />
+			解决方法： 在my.cnf配置文件中添加：log_binrust_function_creators=1 。</p>
+		</div>
+		<div>
+			<h2>下周安排：</h2>
+			<ol>
+				<li>继续学习html基本语法</li>
+				<li>学习使用CSS</li>
+				<li>按照俱乐部的要求完成相应学习任务</li>
+			</ol>
+		</div>
+		<div>
+			<h2>成果展示：</h2>
+			<a href="#chengguo"> <em>成果展示&#9757;&#127996;</em> </a>
+			<input type="button" value="s">
+		</div>
+	</body>
+</html>
