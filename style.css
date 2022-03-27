@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'PingFang SC','SF Pro Display','Microsoft YaHei',Roboto,Noto,Arial,sans-serif;
+}
+body {
+    background-color: #FAFAFACC;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.w {
+    width: 1380px;
+    margin: auto;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #222226;
+}
+.header {
+    position: sticky;
+    top: 0px;
+    height: 48px;
+    padding: 0px 24px;
+    color: #222226;
+}
+.header div .ti {
+    float: left;
+    height: 48px;
+    width: 80px;
+    margin: 0px 8px 0px 0px;
+}
+.ti img {
+    height: 44px;
+    width: 80px;
+    margin: 2px 0px 0px;
+}
+.header {
+    padding: 0px 24px;
+}
+.header div ul li {
+    float: left;
+    height: 48px;
+}
+.header div ul li a {
+    display: block;
+    font-size: 14px;
+    padding: 0px 10px;
+    line-height: 48px;
+}
+.se {
+    float: left;
+    height: 48px;
+    padding: 0px 40px;
+}
+.se div {
+    height: 32px;
+    margin-top: 8px;
+}
+.se div input {
+    float: left;
+    height: 30px;
+    width: 360px;
+    border: 1px solid #bfbfbf;
+    border-right: 0;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    text-indent: 1em;
+    color: #bfbfbf;
+}
+.se div button {
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    width: 88px;
+    border: 1px solid #bfbfbf;
+    border-left: 0;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: #FC5531;
+    color: #fff;
+}
+.se div button i {
+    height 24px;
+    width: 24px;
+    line-height: 32px;
+    margin: 0px 0px 0px 14px;
+}
+.se div button span {
+    height: 32px;
+    line-height: 32px;
+}
+.ot1 {
+    margin: 8px 0px 0px;
+}
+.ot1 a {
+    float: right;
+    margin: 8px 0px 0px;
+}
+.ot2 {
+    height: 48px;
+    float: right;
+    padding: 0px 8px;
+    line-height: 48px;
+    font-size: 14px;
+}
+.ot2 a {
+    height: 48px;
+    line-height: 48px;
+}
+.ot {
+    float: right;
+    height: 48px;
+    width: 64px;
+    padding: 0px 8px;
+}
+.ot a {
+    display: block;
+    width: 32px;
+    height: 48px;
+    margin: 8px 16px 0px 0px;
+}
+.banner {
+    height: 72px;
+    background: transparent url(image/20220107105622.png) no-repeat bottom;
+}
+.banner div {
+    height: 48px;
+    padding: 24px 24px 0px;
+}
+.banner div ul li {
+    float: left;
+    font-size: 15px;
+    color: #555666;
+    margin-right: 23px;
+}
+.box .w{
+    height: 100px;
+}
+.box .w .w {
+    margin-bottom: 20px;
+}
+.box1 {
+    float: left;
+    height: 400px;
+    width: 420px;
+}
+.box1 div {
+    height: 24px;
+}
+.box1 h3 {
+    float: left;
+    font-size: 18px;
+    line-height: 24px;
+}
+.box1 div img {
+    float: left;
+    height: 24px;
+    width: 24px;
+    margin: 0px 4px 0px 0px;
+}
+#dl1 {
+    font-size: 17px;
+    font-weight: 700;
+}
+#dl2 {
+    font-size: 14px;
+    color: #bfbfbf;
+}
+.box2 {
+    float: left;
+    width: 304px;
+    height: 400px!important;
+}
+.box2 div {
+    height: 49px;
+    width: 256px;
+    margin: auto;
+}
+.box2 div p img {
+    height: 20px;
+    width: 10px;
+}
+.box2 a{
+    font-size: 16px;
+}
+.box2 p {
+    font-size: 14px;
+}
+.b2 {
+    height: 24px;
+    width: 304px;
+}
+.b2 p {
+    display: inline-block;
+    float:left;
+    padding: 0px 24px;
+}
+.b2 .im {
+    float: left;
+    height: 24px;
+    width: 24px;
+    margin: 0px 4px 0px 0px;
+}
+.b2 h3 {
+    float: left;
+}
+.box3 {
+    position: relative;
+    float: right;
+}
+.box3 .b3{
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 2px;
+}
+.b3 span {
+    float: left;
+}
+.b3 div {
+    float: left;
+}
